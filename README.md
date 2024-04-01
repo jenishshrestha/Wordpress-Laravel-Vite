@@ -1,2 +1,37 @@
-# Wordpress-Laravel-Vite
-Vite is a modern frontend build tool that provides an extremely fast development environment and bundles your code for production. We will use Vite to bundle our application's CSS and JavaScript files into production ready assets with the help of laravel-vite-plugin.
+# WordPress-Laravel-Vite Theme
+
+The WordPress-Laravel-Vite theme presents a structured framework integrating Laravel Vite, designed to streamline the development process. This setup automatically retrieves asset files from WordPress blocks and Elementor widgets, utilizing them as inputs to generate distinct outputs. Through this implementation, the theme facilitates efficient asset management and optimizes the development workflow for WordPress projects.
+
+For illustrative purposes, this setup incorporates the Hello Elementor theme and its child theme. However, it's essential to note that this configuration is adaptable and can be tailored to any theme as per specific project requirements. This flexibility ensures seamless integration with various WordPress themes, allowing for customized implementations to meet diverse design and functionality needs.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Scripts](#scripts)
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   with ssh:
+   git clone git@github.com:jenishshrestha/Wordpress-Laravel-Vite.git
+
+   # or
+
+   with HTTPS:
+   git clone https://github.com/jenishshrestha/Wordpress-Laravel-Vite.git
+   ```
+
+2. **Navigate to the theme directory:**
+
+   ```bash
+   cd Wordpress-Laravel-Vite\wp-content\themes\hello-theme-child\
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   yarn
+   ```

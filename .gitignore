@@ -1,0 +1,79 @@
+*.log
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/uploads.zip
+wp-content/mu-plugins/
+wp-content/wp-cache-config.php
+wp-content/upgrade-temp-backup/
+# wp-content/plugins/
+
+# wp-content/plugins/seo-by-rank-math
+
+# plugins only needed in local server
+wp-content/plugins/wp-all-import-pro
+wp-content/plugins/wpai-acf-add-on
+wp-content/plugins/all-in-one-wp-migration/storage/
+wp-content/plugins/wp-optimize
+wp-content/plugins/regenerate-thumbnails
+wp-content/plugins/wp-debugging
+wp-content/plugins/debug-bar
+wp-content/plugins/query-monitor
+wp-content/plugins/wp-reset
+
+wp-content/ai1wm-backups
+wp-content/wflogs
+wp-content/backups-dup-pro
+wp-content/updraft/
+wp-content/w3tc-config
+wp-content/wflogs
+wp-content/index.php
+wp-content/languages
+
+#Backup files
+wp-content/*.zip
+wp-content/*.tar.gz
+
+# Node Modules
+node_modules
+
+.htaccess_backup_*
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+
+.idea/
+
+# Wordfence file
+wordfence-waf.php
+
+# Ignore OSX files
+._.DS_Store
+.DS_Store
+.unison*
+
+# Nodejs log files
+wp-content/themes/logs
+*.log
+npm-debug.
+yarn-debug
+yarn-error
+lerna-debu
+
+# WP rocket config
+wp-rocket-config
+
+# .htaccess
+.htaccess
+
+.user.ini
+php.ini
+
+docker-compose.yaml
