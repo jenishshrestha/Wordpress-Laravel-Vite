@@ -9,6 +9,8 @@ const { resolve } = path;
 /**
  * ====================================================================
  * Getting all scss files relative url
+ *
+ * All custom elementor widget css
  * ====================================================================
  */
 let sass = Object.fromEntries(
@@ -28,6 +30,8 @@ let mainSCSS = fileURLToPath(new URL('resources/scss/main.scss', import.meta.url
 /**
  * ====================================================================
  * Getting all js files relative url
+ *
+ * All custom elementor widget js
  * ====================================================================
  */
 let js = Object.fromEntries(
