@@ -1,0 +1,24 @@
+{
+  "app/elementor-addon/assets/js/example.js": {
+    "file": "assets/example-DYs7gvdb.js",
+    "name": "example",
+    "src": "app/elementor-addon/assets/js/example.js",
+    "isEntry": true
+  },
+  "app/elementor-addon/assets/scss/example.scss": {
+    "file": "assets/example-CJzoHsMP.css",
+    "src": "app/elementor-addon/assets/scss/example.scss",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-TRaueH81.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/scss/main.scss": {
+    "file": "assets/main-Cpvry2Kf.css",
+    "src": "resources/scss/main.scss",
+    "isEntry": true
+  }
+}

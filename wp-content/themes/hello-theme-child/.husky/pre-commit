@@ -1,0 +1,4 @@
+#!/bin/sh
+cd wp-content/themes/hello-theme-child
+yarn lint-staged
+yarn build && git add .
