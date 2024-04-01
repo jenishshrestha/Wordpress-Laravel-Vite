@@ -7,9 +7,8 @@ For illustrative purposes, this setup incorporates the Hello Elementor theme and
 ## Table of Contents
 
 - [Installation](#installation)
-- [Configuration](#configuration)
 - [Usage](#usage)
-- [Scripts](#scripts)
+- [Technologies](#technologies)
 
 ## Installation
 
@@ -44,10 +43,12 @@ yarn dev
 
 Vite server will run at http://localhost:2222.
 
+You can access your project in the customary manner by navigating to its designated URL, such as http://projectname.local or http://localhost/projectname
+
 ## Technologies
 
 - Vite
 - Laravel Vite Plugin
 - Husky
 - Tailwind CSS
-- Elementor Widgets
+- Elementor
