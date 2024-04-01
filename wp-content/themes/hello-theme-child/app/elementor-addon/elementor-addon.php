@@ -25,7 +25,7 @@ function register_custom_widgets($widgets_manager)
     $widgetFolder = '/includes/widgets';
 
     // includes widget files
-    require_once (__DIR__ . $widgetFolder . '/logo-listing.php');
+    require_once (__DIR__ . $widgetFolder . '/example.php');
 
     //register class of widget
     $widgets_manager->register(new \Example());
@@ -62,7 +62,7 @@ function elementor_scripts()
     //Example widget
     wp_register_style('example-style', Vite::asset($scssDir . 'example.scss'), [], null, 'screen');
 
-    wp_register_script('example-script', Vite::asset($jsDir . 'example.js'), ['elementor-frontend', 'gsap-cdn'], null, false);
+    wp_register_script('example-script', Vite::asset($jsDir . 'example.js'), ['elementor-frontend'], null, false);
 
 }
 

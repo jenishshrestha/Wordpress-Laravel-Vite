@@ -92,7 +92,7 @@ class Example extends \Elementor\Widget_Base
      */
     public function get_categories()
     {
-        return ['kinetica'];
+        return ['example'];
     }
 
     /**
@@ -160,10 +160,10 @@ class Example extends \Elementor\Widget_Base
 
         $exampleField = $settings['example_field'] ?? 'No Data';
         ?>
-<div class="example">
-    <?php echo $exampleField; ?>
-</div>
-<?php
+        <div class="example">
+            <?php echo $exampleField; ?>
+        </div>
+        <?php
     }
 
     /**
@@ -178,8 +178,8 @@ class Example extends \Elementor\Widget_Base
     protected function content_template()
     {
         ?>
-<div class="example">{{{ settings.example_field }}}</div>
-<?php
+        <div class="example">{{{ settings.example_field }}}</div>
+        <?php
     }
 
 }

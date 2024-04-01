@@ -35,3 +35,19 @@ For illustrative purposes, this setup incorporates the Hello Elementor theme and
    ```bash
    yarn
    ```
+
+## Usage
+
+```bash
+yarn dev
+```
+
+Vite server will run at http://localhost:2222.
+
+## Technologies
+
+- Vite
+- Laravel Vite Plugin
+- Husky
+- Tailwind CSS
+- Elementor Widgets
